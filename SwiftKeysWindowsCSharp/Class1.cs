@@ -17,7 +17,7 @@ namespace WindowMover
 
         public static void Move(int x, int y, bool onTop)
         {
-            const short SWP_NOZORDER = 0X4;
+            const int SWP_NOZORDER = 0X4;
             const int SWP_SHOWWINDOW = 0x0040;
 
             Process[] processes = Process.GetProcessesByName("vysor");
@@ -26,9 +26,19 @@ namespace WindowMover
                 if (process.MainWindowTitle == "Raspberry Pi_3")
                 {
                     IntPtr handle = process.MainWindowHandle;
-                    SetWindowPos(handle, onTop ? -1 : 0, x, y, 600, 800, SWP_NOZORDER | SWP_SHOWWINDOW);
+                    if (onTop)
+                    {
+                        SetWindowPos(handle, -1, x, y, 600, 800, SWP_NOZORDER | SWP_SHOWWINDOW);
+                    }
+                    else
+                    {
+                        SetWindowPos(handle, 0, x, y, 600, 800, SWP_NOZORDER | SWP_SHOWWINDOW );
+                    }
+                    
                 }
-            }            
+            }
+
+            
         }
     }
 }
