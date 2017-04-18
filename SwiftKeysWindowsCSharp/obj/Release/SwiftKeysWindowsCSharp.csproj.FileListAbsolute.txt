@@ -6,3 +6,4 @@ C:\Users\Brandon\Documents\481\trayapp\SwiftKeysWindowsCSharp\SwiftKeysWindowsCS
 C:\Users\Brandon\Documents\481\trayapp\SwiftKeysWindowsCSharp\SwiftKeysWindowsCSharp\obj\Release\SwiftKeysWindowsCSharp.csproj.GenerateResource.Cache
 C:\Users\Brandon\Documents\481\trayapp\SwiftKeysWindowsCSharp\SwiftKeysWindowsCSharp\obj\Release\SwiftKeysWindowsCSharp.exe
 C:\Users\Brandon\Documents\481\trayapp\SwiftKeysWindowsCSharp\SwiftKeysWindowsCSharp\obj\Release\SwiftKeysWindowsCSharp.pdb
+C:\Users\Brandon\Documents\481\trayapp\SwiftKeysWindowsCSharp\SwiftKeysWindowsCSharp\obj\Release\SwiftKeysWindowsCSharp.csprojResolveAssemblyReference.cache

@@ -20,7 +20,7 @@ namespace WindowMover
             const short SWP_NOZORDER = 0X4;
             const int SWP_SHOWWINDOW = 0x0040;
 
-            var process = Process.GetProcessesByName("Vysor (32 bit)");
+            var process = Process.GetProcessesByName("Vysor (32 bit)(2)");
             var handle = process[0].MainWindowHandle;
 
             SetWindowPos(handle, onTop ? -1 : 0, x, y, 600, 800, SWP_NOZORDER | SWP_SHOWWINDOW);
