@@ -57,12 +57,12 @@ namespace SwiftKeysWindowsCSharp
 
         private void option1ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Logic.Move(400, -50, true);
+            WinCmds.Move(400, -50, true);
         }
 
         private void option2ToolStripMeduItem_Click(object sender, EventArgs e)
         {
-            Logic.Move(0, 0, false);
+            WinCmds.Move(0, 0, false);
         }
 
         private void closeApplication(object sender, EventArgs e)
