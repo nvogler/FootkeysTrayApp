@@ -1,0 +1,18 @@
+c:\users\brandon\documents\visual studio 2015\Projects\SwiftKeysWindowsCSharp\SwiftKeysWindowsCSharp\bin\Debug\SwiftKeysWindowsCSharp.exe.config
+c:\users\brandon\documents\visual studio 2015\Projects\SwiftKeysWindowsCSharp\SwiftKeysWindowsCSharp\bin\Debug\SwiftKeysWindowsCSharp.exe
+c:\users\brandon\documents\visual studio 2015\Projects\SwiftKeysWindowsCSharp\SwiftKeysWindowsCSharp\bin\Debug\SwiftKeysWindowsCSharp.pdb
+c:\users\brandon\documents\visual studio 2015\Projects\SwiftKeysWindowsCSharp\SwiftKeysWindowsCSharp\obj\Debug\SwiftKeysWindowsCSharp.csprojResolveAssemblyReference.cache
+c:\users\brandon\documents\visual studio 2015\Projects\SwiftKeysWindowsCSharp\SwiftKeysWindowsCSharp\obj\Debug\SwiftKeysWindowsCSharp.Form1.resources
+c:\users\brandon\documents\visual studio 2015\Projects\SwiftKeysWindowsCSharp\SwiftKeysWindowsCSharp\obj\Debug\SwiftKeysWindowsCSharp.Properties.Resources.resources
+c:\users\brandon\documents\visual studio 2015\Projects\SwiftKeysWindowsCSharp\SwiftKeysWindowsCSharp\obj\Debug\SwiftKeysWindowsCSharp.csproj.GenerateResource.Cache
+c:\users\brandon\documents\visual studio 2015\Projects\SwiftKeysWindowsCSharp\SwiftKeysWindowsCSharp\obj\Debug\SwiftKeysWindowsCSharp.exe
+c:\users\brandon\documents\visual studio 2015\Projects\SwiftKeysWindowsCSharp\SwiftKeysWindowsCSharp\obj\Debug\SwiftKeysWindowsCSharp.pdb
+C:\Users\Brandon\Documents\481\trayapp\SwiftKeysWindowsCSharp\SwiftKeysWindowsCSharp\bin\Debug\SwiftKeysWindowsCSharp.exe.config
+C:\Users\Brandon\Documents\481\trayapp\SwiftKeysWindowsCSharp\SwiftKeysWindowsCSharp\obj\Debug\SwiftKeysWindowsCSharp.exe
+C:\Users\Brandon\Documents\481\trayapp\SwiftKeysWindowsCSharp\SwiftKeysWindowsCSharp\obj\Debug\SwiftKeysWindowsCSharp.pdb
+C:\Users\Brandon\Documents\481\trayapp\SwiftKeysWindowsCSharp\SwiftKeysWindowsCSharp\bin\Debug\SwiftKeysWindowsCSharp.exe
+C:\Users\Brandon\Documents\481\trayapp\SwiftKeysWindowsCSharp\SwiftKeysWindowsCSharp\bin\Debug\SwiftKeysWindowsCSharp.pdb
+C:\Users\Brandon\Documents\481\trayapp\SwiftKeysWindowsCSharp\SwiftKeysWindowsCSharp\obj\Debug\SwiftKeysWindowsCSharp.csprojResolveAssemblyReference.cache
+C:\Users\Brandon\Documents\481\trayapp\SwiftKeysWindowsCSharp\SwiftKeysWindowsCSharp\obj\Debug\SwiftKeysWindowsCSharp.FootKeys.resources
+C:\Users\Brandon\Documents\481\trayapp\SwiftKeysWindowsCSharp\SwiftKeysWindowsCSharp\obj\Debug\SwiftKeysWindowsCSharp.Properties.Resources.resources
+C:\Users\Brandon\Documents\481\trayapp\SwiftKeysWindowsCSharp\SwiftKeysWindowsCSharp\obj\Debug\SwiftKeysWindowsCSharp.csproj.GenerateResource.Cache
