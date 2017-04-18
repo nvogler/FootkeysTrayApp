@@ -57,7 +57,7 @@ namespace SwiftKeysWindowsCSharp
 
         private void option1ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            WinCmds.Move(400, -50, true);
+            WinCmds.Move(400, -350, true);
         }
 
         private void option2ToolStripMeduItem_Click(object sender, EventArgs e)

@@ -20,10 +20,15 @@ namespace WindowMover
             const short SWP_NOZORDER = 0X4;
             const int SWP_SHOWWINDOW = 0x0040;
 
-            var process = Process.GetProcessesByName("Raspberry Pi_3");
-            var handle = process[0].MainWindowHandle;
-
-            SetWindowPos(handle, onTop ? -1 : 0, x, y, 600, 800, SWP_NOZORDER | SWP_SHOWWINDOW);
+            Process[] processes = Process.GetProcessesByName("vysor");
+            foreach (var process in processes)
+            {
+                if (process.MainWindowTitle == "Raspberry Pi_3")
+                {
+                    IntPtr handle = process.MainWindowHandle;
+                    SetWindowPos(handle, onTop ? -1 : 0, x, y, 600, 800, SWP_NOZORDER | SWP_SHOWWINDOW);
+                }
+            }            
         }
     }
 }
