@@ -21,8 +21,13 @@ namespace SwiftKeysWindowsCSharp
             InitializeComponent();
             this.WindowState = FormWindowState.Minimized;
             this.ShowInTaskbar = false;
-            this.notifyIcon1.ShowBalloonTip(5);
 
+            this.notifyIcon1.ShowBalloonTip(5);
+            startBluetooth(); 
+        }
+
+        private void startBluetooth()
+        {
             ProcessStartInfo start = new ProcessStartInfo();
             start.Arguments = "";
             start.FileName = "SwiftFootKeysWindows.exe";
@@ -30,13 +35,7 @@ namespace SwiftKeysWindowsCSharp
             start.CreateNoWindow = true;
 
             Process proc = Process.Start(start);
-            processId = proc.Id; 
-            /*using (Process proc = Process.Start(start))
-            {
-                proc.WaitForExit();
-                exitCode = proc.ExitCode; 
-            }*/
-
+            processId = proc.Id;
         }
 
         private void notifyIcon1_MouseDoubleClick(object sender, MouseEventArgs e)
@@ -57,12 +56,12 @@ namespace SwiftKeysWindowsCSharp
 
         private void option1ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Logic.Move(400, -50, true);
+            WinCmds.Move(400, -350, true);
         }
 
         private void option2ToolStripMeduItem_Click(object sender, EventArgs e)
         {
-            Logic.Move(0, 0, false);
+            WinCmds.Move(0, 0, false);
         }
 
         private void closeApplication(object sender, EventArgs e)
@@ -70,6 +69,20 @@ namespace SwiftKeysWindowsCSharp
             notifyIcon1.Visible = false;
             Process.GetProcessById(processId).Kill();
             Application.Exit(); 
+        }
+
+        private void restartBlueTooth(object sender, EventArgs e)
+        {
+            Process.GetProcessById(processId).Kill();
+            startBluetooth(); 
+        }
+
+        private void restartAndroidApp(object sender, EventArgs e)
+        {
+            string strCmdText = "adb shell am force-stop a481project.swiftkeys";
+            System.Diagnostics.Process.Start("CMD.exe", strCmdText);
+            strCmdText = "adb shell am start-n a481project.swiftkeys/SwiftKeys";
+            System.Diagnostics.Process.Start("CMD.exe", strCmdText);
         }
     }
 }
